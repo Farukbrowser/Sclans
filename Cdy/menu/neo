@@ -9,6 +9,6 @@ clear
 neofetch
 echo -e "  \e[92;1m Information System \e[0m"
 echo -e "  \e[97;1m---------------------------------------${NC}"
-echo -e "  \e[97;1m            ANON STORE VPN             ${NC}"
+echo -e "  \e[97;1m            SCLANS STORE VPN             ${NC}"
 echo -e "  \e[97;1m---------------------------------------${NC}"
 echo -e ""

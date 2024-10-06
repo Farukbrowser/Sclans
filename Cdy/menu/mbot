@@ -19,8 +19,8 @@ Name=$(curl https://raw.githubusercontent.com/Farukbrowser/Sclans/main/ip | grep
 
 setup_bot() {
     switch=$(grep -i "switch" /root/.bckupbot | awk '{print $2}')
-    echo "Pergi ke @BotFather dan type /newbot untuk membuat bot baru"
-    echo "Pergi ke @MissRose_bot dan type /id untuk mendapatkan ID telegram"
+    echo "Go to @BotFather and type /newbot to create a new bot"
+    echo "Go to @MissRose_bot and type /id to get telegram ID"
     echo ""
     read -p "Bot Token : " getToken
 echo ""

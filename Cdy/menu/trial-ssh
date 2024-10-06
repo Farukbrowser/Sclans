@@ -105,7 +105,7 @@ Ovpn Download : https://$domain:81/
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
 Save Link Account: https://$domain:81/ssh-$Login.txt
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
-Berakhir Pada  : $pup Menit
+Expire At  : $pup Menit
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
 "
 
@@ -123,7 +123,7 @@ Format SSH OVPN Account
 ======================
 Username         : $Login
 Password         : $Pass
-Berakhir Pada  : $pup Menit
+Expire At  : $pup Menit
 ======================
 IP               : $IP
 Host             : $domain
@@ -166,7 +166,7 @@ echo -e "${BlueCyan} ◇━━━━━━━━━━━━━━━━━◇ $
 # Sc Credit
 function Sc_Credit(){
 baris_panjang
-echo -e "${ungu}  Terimakasih Telah Menggunakan Script-"
+echo -e "${ungu}  Thank you for using Script-"
 echo -e "       Credit    $nama"
 echo -e "${Xark}"
 baris_panjang

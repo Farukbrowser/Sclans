@@ -1,5 +1,5 @@
 #!/bin/bash
-# Menjalankan animasi loading
+# Run the loading animation
 loading() {
   local pid=$1
   local delay=0.1
@@ -16,7 +16,7 @@ loading() {
   printf "    \b\b\b\b"
 }
 
-# Menampilkan pesan setelah animasi selesai
+# Displays a message after the animation is complete
 function Loading_Succes() {
 clear
 echo -e  "\033[5;32mSucces\033[0m"

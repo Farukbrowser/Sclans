@@ -10,7 +10,7 @@ REDBG="\033[41;37m"
 NC='\e[0m'
 MYIP=$(curl -sS ipv4.icanhazip.com)
 ######################################
-# // USERNAME IZIN IPP
+# // USERNAME IP PERMISSION
 rm -f /usr/bin/user
 username=$(curl -sS https://raw.githubusercontent.com/Farukbrowser/Sclans/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
@@ -20,7 +20,7 @@ echo "$valid" > /usr/bin/e
 
 clear
 ######################################
-# // DETAIL ORDER IZIN IP
+# // IP PERMIT ORDER DETAILS
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
 exp=$(cat /usr/bin/e)
@@ -116,7 +116,7 @@ let ssa=$ssx/2
 function xdxl_Banner() {
 clear
 echo -e "\033[96;1m┌─────────────────────────────────────────────────┐\e[0m"
-echo -e "\033[96;1m│ \e[41;1m                 ANON STORE VPN              \e[0m \033[96;1m│\e[0m"
+echo -e "\033[96;1m│ \e[41;1m                 SCLANS STORE VPN              \e[0m \033[96;1m│\e[0m"
 echo -e "\033[96;1m└─────────────────────────────────────────────────┘\e[0m"
 }
 
@@ -145,7 +145,7 @@ echo -e "\033[96;1m└───────────────────�
 
 function Details_Clients_Name() {
 echo -e "\033[96;1m   ┌───────────────────────────────────────────┐\033[0m "
-echo -e "\033[96;1m   │\e[97m  VERSION     : ${BLUE}5.0 ANON \033[0m "
+echo -e "\033[96;1m   │\e[97m  VERSION     : ${BLUE}5.0 FarukBrowser \033[0m "
 echo -e "\033[96;1m   │\e[97m  CLIENTS     :\033[0m\033[92;1m $(cat /usr/bin/user)   \033[0m "
 echo -e "\033[96;1m   │\e[97m  EXPIRED     :\033[0m\033[92;1m $masaaktif  \033[0m "
 echo -e "\033[96;1m   └───────────────────────────────────────────┘\033[0m "

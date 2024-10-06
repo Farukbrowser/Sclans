@@ -47,7 +47,7 @@ function baris_panjang() {
 function Sc_Credit(){
 sleep 1
 baris_panjang
-echo -e "${ungu}  Terimakasih Telah Menggunakan ${Xark}"
+echo -e "${ungu}  Thank you for using ${Xark}"
 echo -e "${ungu}          Script Credit ${Xark}"
 echo -e "${ungu}          $nama ${Xark}"
 baris_panjang
@@ -149,7 +149,7 @@ OVPN Download : https://$domain:81/
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
 <code>Save Link Account: </code>https://$domain:81/ssh-$Login.txt
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
-Berakhir Pada        : $expe
+Expire At        : $expe
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
 "
 

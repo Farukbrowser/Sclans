@@ -34,7 +34,7 @@ checking_sc() {
     echo -e "   \033[0;33mYour VPS\033[0m $ipsaya \033[0;33mHas been Banned\033[0m"
     echo -e "     \033[0;33mBuy access permissions for scripts\033[0m"
     echo -e "             \033[0;33mContact Admin :\033[0m"
-    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/"
+    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/2348084124966"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
   fi
@@ -65,7 +65,7 @@ baris_panjang
 function Sc_Credit(){
 sleep 1
 baris_panjang
-echo -e "\033[2;35m      Terimakasih Telah Menggunakan \033[0m"
+echo -e "\033[2;35m      Thank you for using \033[0m"
 echo -e "\033[2;35m             Script Credit \033[0m"
 echo -e "\033[2;35m           $nama  \033[0m"
 baris_panjang

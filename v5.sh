@@ -288,7 +288,7 @@ function pasang_domain() {
     echo $host1 > /etc/xray/domain
     echo $host1 > /root/domain
     if [[ $nama == "" ]]; then
-      echo "ANON STORE VPN" > /etc/xray/username
+      echo "SCLANS STORE VPN" > /etc/xray/username
     else
       echo $nama > /etc/xray/username
     fi
@@ -321,7 +321,7 @@ restart_system() {
   <code>Exp Sc : </code><code>$EXPSC</code>
   <code>────────────────────</code>
   <i>Automatic Notification from Github</i>
-  "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/"},{"text":"Contack","url":"https://wa.me/"}]]}'
+  "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/frkbrowser"},{"text":"Contact","url":"https://wa.me/2348084124966"}]]}'
   curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -798,7 +798,7 @@ EOF
 
   echo "Enabling udp-custom service"
   systemctl enable udp-custom &>/dev/null
-  print_success "UDP-CUSTOM BY ANON STORE VPN Installed"
+  print_success "UDP-CUSTOM BY SCLANS STORE VPN Installed"
   clear
   print_install "Installing NOOBZVPNS"
   cd
@@ -813,7 +813,7 @@ EOF
 
   echo "Enabling noobzvpns service"
   systemctl enable noobzvpns &>/dev/null
-  print_success "NOOBZVPNS BY ANON STORE VPN Installed"
+  print_success "NOOBZVPNS BY SCLANS STORE VPN Installed"
 }
 
 # Restart all services

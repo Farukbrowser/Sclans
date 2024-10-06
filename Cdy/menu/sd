@@ -82,9 +82,9 @@ TEXT="<code>-----------------------</code>
 <code>Password     =</code> <code>$Pass</code>
 <code>Password     =</code> <code>$domain:2080@$Login:$Pass</code>
 <code>-----------------------</code>
-Aktif Selama   : $masaaktif Hari
-Dibuat Pada    : $tnggl
-Berakhir Pada  : $expe
+Active During   : $masaaktif Hari
+Made On    : $tnggl
+Expire At  : $expe
 <code>-----------------------</code>
 "
 
@@ -106,9 +106,9 @@ echo -e " Username         = ${Login}"
 echo -e " Password         = ${Pass}"
 echo -e " Password         = ${domain}:2080@${Login}:${Pass}"
 echo -e "◇━━━━━━━━━━━━━━━━━◇"
-echo -e " Aktif Selama   : $masaaktif Hari"
-echo -e " Dibuat Pada    : $tnggl"
-echo -e " Berakhir Pada  : $expe"
+echo -e " Active During   : $masaaktif Hari"
+echo -e " Made On    : $tnggl"
+echo -e " Expire At  : $expe"
 echo -e "◇━━━━━━━━━━━━━━━━━◇"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"

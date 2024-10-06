@@ -32,8 +32,8 @@ checking_sc() {
     echo -e "            \033[91;1mPERMISSION DENIED !\033[0m"
     echo -e "   \033[0;33mYour VPS\033[0m $ipsaya \033[0;33mHas been Banned\033[0m"
     echo -e "     \033[0;33mBuy access permissions for scripts\033[0m"
-    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/6283857008950"
-	echo -e "      \033[2;32mTelegram\033[0m t.me/ANON07"
+    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/2348084124966"
+	echo -e "      \033[2;32mTelegram\033[0m t.me/frkbrowser"
     echo -e "\033[0m────────────────────────────────────────────\033[0m"
     sleep 10
 	reboot
@@ -66,7 +66,7 @@ baris_panjang
 function Sc_Credit(){
 sleep 1
 baris_panjang
-echo -e "\033[2;35m      Terimakasih Telah Menggunakan \033[0m"
+echo -e "\033[2;35m      Thank you for using \033[0m"
 echo -e "\033[2;35m             Script Credit \033[0m"
 echo -e "\033[2;35m           $nama  \033[0m"
 baris_panjang
@@ -249,9 +249,9 @@ Name      : trojan-grpc</code>
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
 Format OpenClash : https://${domain}:81/trojan-$user.txt
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
-Aktif Selama   : $masaaktif Hari
-Dibuat Pada    : $tnggl
-Berakhir Pada  : $expe
+Active During   : $masaaktif Hari
+Made On    : $tnggl
+Expire At  : $expe
 <code>◇━━━━━━━━━━━━━━━━━◇</code>
 "
 
@@ -264,13 +264,13 @@ URL="$URL"
 TEXT="<code>◇━━━━━━━━━━━━━━━━━◇
 *_PEMBELIAN BERHASIL_*
 ◇━━━━━━━━━━━━━━━━━◇
--» PRODUK : TROJAN
+-» PRODUCT : TROJAN
 -» REGION : $CITY
 -» REQ CONFIG : 
--» REQ NAMA : $user
+-» REQ NAME : $user
 -» DEVICE : $iplimit IP
--» HARGA : 
--» AKTIF : $masaaktif HARI
+-» PRICE : 
+-» ACTIVE : $masaaktif HARI
 -» TGL EXP : $expe
 ◇━━━━━━━━━━━━━━━━━◇
 $nama </code>"

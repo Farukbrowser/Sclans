@@ -27,7 +27,7 @@ MODEL=$(cat /etc/os-release | grep -w ID | head -n1 | sed 's/=//g' | sed 's/"//g
 clear
 # // Gettings Info
 ######################################
-# // USERNAME IZIN IPP
+# // USERNAME IP PERMISSION
 rm -f /usr/bin/user
 username=$(curl -sS https://raw.githubusercontent.com/Farukbrowser/Sclans/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
@@ -37,7 +37,7 @@ echo "$valid" > /usr/bin/e
 
 clear
 ######################################
-# // DETAIL ORDER IZIN IP
+# // IP PERMIT ORDER DETAILS
 #username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
 exp=$(cat /usr/bin/e)
@@ -166,7 +166,7 @@ fi
 function rif_Banner() {
 clear
 echo -e "${z}┌─────────────────────────────────────────────────┐\033[0m "
-echo -e "${z}│${NC} \033[41;37m               ANON STORE VPN                ${NC}${z} │${NC}"
+echo -e "${z}│${NC} \033[41;37m               SCLANS STORE VPN                ${NC}${z} │${NC}"
 echo -e "${z}└─────────────────────────────────────────────────┘\033[0m "
 }
 
@@ -200,7 +200,7 @@ echo -e "${z}     └───────────────────�
 
 function Details_Clients_Name() {
 echo -e "${z}   ┌───────────────────────────────────────────┐\033[0m "
-echo -e "${z}   │${NC}  VERSION      : ${BLUE}5.0  ANON     \033[0m "
+echo -e "${z}   │${NC}  VERSION      : ${BLUE}5.0  SCLANS     \033[0m "
 echo -e "${z}   │${NC}  CLIENTS      :\033[0m\033[91;1m $(cat /usr/bin/user)      \033[0m "
 echo -e "${z}   │${NC}  EXPIRED      :\033[0m\033[91;1m ${masaaktif} \033[0m "
 echo -e "${z}   └───────────────────────────────────────────┘\033[0m "
